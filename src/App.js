@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import HomePage from './hompage.component';
+import HomePage from './pages/homepage/homepage.component';
 
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
     return( 
         <div className='container'>
           <HomePage/>
-      </div>
+        </div>
     )
   }
     
