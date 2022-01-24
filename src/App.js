@@ -1,23 +1,20 @@
 import React, {Component} from 'react';
 import './App.css';
 import HomePage from './pages/homepage/homepage.component';
+import {Route} from 'react-router-dom'
 
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-    }
-  }
+const HatsPage = () => {
 
-  render () {
-    return( 
-        <div className='container'>
-          <HomePage/>
-        </div>
-    )
-  }
-    
+  return( 
+    <div className='container'>
+      <HomePage/> 
+    </div>
+  )
 }
+
+   
+    
+
 
 export default App;
