@@ -1,6 +1,6 @@
 import React from 'react';
 import './menu-item.styles.scss'
-import HomePage from '../../pages/homepage/homepage.component';
+// import HomePage from '../../pages/homepage/homepage.component';
 
 const MenuItem = ({title, size, imageUrl}) => {
     return (
